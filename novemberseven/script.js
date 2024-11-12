@@ -1,5 +1,5 @@
 const prompt = require('prompt-sync')();  
- 
+
 let length = Number(prompt('Введите длину прямоугольника: '));  
 let width = Number(prompt('Введите ширину прямоугольника: '));  
  
