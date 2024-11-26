@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Чат</title>
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="messages" id="messages">
+            <div class="message left">
+                <img src="portrait.jpg" alt="Аватар пользователя 1" class="avatar">
+                <div class="message-content">
+                    <span class="username">мистер пудж</span>
+                    <p>знаешь имба сборка есть? атос, дагон</p>
+                    <span class="timestamp">12:00</span>
+                </div>
+            </div>
+
+            <div class="message right">
+                <img src="nevermore.png" alt="Аватар пользователя 2" class="avatar">
+                <div class="message-content">
+                    <span class="username">сф</span>
+                    <p>отстань жирный</p>
+                    <span class="timestamp">12:01</span>
+                </div>
+            </div>
+
+            <div class="message left">
+                <img src="portrait.jpg" alt="Аватар пользователя 1" class="avatar">
+                <div class="message-content">
+                    <span class="username">мистер пудж</span>
+                    <p>я не договорил! там еще момчег есть</p>
+                    <span class="timestamp">12:02</span>
+                </div>
+            </div>
+
+            <div class="message right">
+                <img src="nevermore.png" alt="Аватар пользователя 2" class="avatar">
+                <div class="message-content">
+                    <span class="username">сф</span>
+                    <p>😅</p>
+                    <span class="timestamp">12:03</span>
+                </div>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" placeholder="Введите сообщение..." class="message-input">
+            <button class="send-button">Отправить</button>
+        </div>        
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Прокрутка вниз при загрузке
+        const messagesContainer = document.getElementById('messages');
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    </script>
+</body>
+</html>
