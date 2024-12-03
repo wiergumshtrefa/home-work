@@ -1,46 +1,37 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Кофейня "Ароматный кофе"</title>
+    <title>Мое меню навигации</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Кофейня "Ароматный кофе"</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="#menu">Меню</a></li>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="menu">
-        <h2>Наше меню</h2>
+    <nav class="menu">
         <ul>
-            <li>Эспрессо - 150₽</li>
-            <li>Капучино - 200₽</li>
-            <li>Латте - 220₽</li>
-            <li>Мокко - 250₽</li>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="menu.html">Меню</a>
+                <ul class="dropdown">
+                    <li><a href="#drinks">Напитки</a></li>
+                    <li><a href="#snacks">Закуски</a></li>
+                    <li><a href="#desserts">Десерты</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">О нас</a></li>
         </ul>
-    </section>
+    </nav>
 
-    <section id="about">
-        <h2>О нас</h2>
-        <p>Мы - маленькая кофейня в сердце города, предлагающая лучшие сорта кофе и уютную атмосферу для отдыха.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Контакты</h2>
-        <p>Телефон: +7 123 456 7890</p>
-        <p>Адрес: ул. Коффейная, 1, Москва</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Кофейня "Ароматный кофе". Все права защищены.</p>
-    </footer>
+    <div id="drinks">
+        <h2>Напитки</h2>
+        <!-- Содержимое -->
+    </div>
+    <div id="snacks">
+        <h2>Закуски</h2>
+        <!-- Содержимое -->
+    </div>
+    <div id="desserts">
+        <h2>Десерты</h2>
+        <!-- Содержимое -->
+    </div>
 </body>
 </html>
