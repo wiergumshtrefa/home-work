@@ -8,7 +8,7 @@ body {
 
 header {
     height: 150px;
-    background-color: rgb(70, 31, 31);
+    background-color: rgb(207, 166, 118);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 1em 0;
@@ -27,7 +27,7 @@ header {
     height: 900px;
     flex: 1; /* Колонки будут одинаковой ширины */
     margin: 0 10px; /* Отступ между колонками */
-    background: linear-gradient(rgb(73, 177, 73), rgb(105, 20, 20));
+    background: linear-gradient(rgb(177, 115, 73), rgb(255, 255, 255));
     border-radius: 5px;
     padding: 20px; /* Внутренний отступ */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для колонок */

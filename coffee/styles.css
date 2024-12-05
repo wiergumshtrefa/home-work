@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif; 
     margin: 0; 
     padding: 0; 
-    background: linear-gradient(rgb(235, 100, 100), rgb(22, 177, 55));
+    background-color: bisque;
 } 
 
 .menu { 
@@ -47,5 +47,30 @@ ul li {
 }
 
 img {
-    width: 1000px;
+    width: 1200px;
+    content: "";
+    background-image: url('your-image.jpg');
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    height: 100%; 
 }
+section {
+    background-color: antiquewhite;
+    padding: 50px;
+    margin: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {  
+    .container {  
+        flex-direction: column; /* На узких экранах колонки становятся вертикальными */  
+    }  
+      
+    .column {  
+        margin: 10px 0; /* Отступы для вертикального расположения */  
+    }  
+} 

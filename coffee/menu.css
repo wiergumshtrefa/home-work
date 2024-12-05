@@ -6,56 +6,76 @@ body {
 }
 
 header {
-    background-color: #4b3c2e;
+    background-color: #80664e;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-/* .menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.menu ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-.menu ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.menu ul li a:hover {
-    text-decoration: underline;
-} */
-
-ul li img {
-    width: 100px;
-    height: 100px;
-}
-
-/* section {
-    padding: 20px;
-    margin: 10px;
-    background-color: #fff;
-} */
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #4b3c2e;
+    padding: 20px;
+    background-color: #9e7f61;
     color: white;
 }
 
-/* img {
-    padding: 0%;
-    margin: 0%;
-    height: 100px;
-    width: 100px;
-} */
+
 .menu ul li a {
     color: azure;
     text-decoration: none;
 }
+
+img {
+    width: 300px;
+    height: px;
+}
+
+/* .text-ex-image{
+    display: flex;
+    align-items: center;
+    background: url(coffee.jpg); /* Путь к картинке */
+    /* background-repeat: no-repeat; Фон не повторяется
+    height: 200px; Высота блока
+} */
+
+
+
+h2 {
+    color: rgb(255, 185, 128);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* Чтобы контейнер занимал размер изображения */
+}
+
+.image {
+    display: block; /* Убирает отступы под изображением */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%; /* Центрируем текст по вертикали */
+    left: 50%; /* Центрируем текст по горизонтали */
+    transform: translate(-50%, -50%); /* Сдвигаем текст на половину его размера */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    font-size: 40px; /* Размер шрифта */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+
+ul p {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {  
+    .container {  
+        flex-direction: column; /* На узких экранах колонки становятся вертикальными */  
+    }  
+      
+    .column {  
+        margin: 10px 0; /* Отступы для вертикального расположения */  
+    }  
+} 
+
